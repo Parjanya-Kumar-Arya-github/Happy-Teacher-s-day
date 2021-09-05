@@ -10,7 +10,6 @@ body {
     background-image: url("../images/bg.jpg");
     overflow: hidden;
 }
-
 .hero-logo {
     height: 200px;
     background-repeat: no-repeat;
@@ -176,7 +175,7 @@ img{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 40%;
 }
 
 
@@ -515,7 +514,7 @@ footer {
     }
 }
 .maths{
-    width: 50%;
+    width: 40%;
 }
 @media (max-width:760px) {
     #card-inside {
@@ -525,10 +524,10 @@ footer {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 90%;
 }
 .maths{
-    width: 50%;
+    width: 40%;
 }
 }
 
@@ -537,7 +536,7 @@ footer {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 70%;
 }
 .maths{
     width: 90%;
@@ -584,5 +583,11 @@ footer {
     button#open::after,
     button#close::after {
         width: 110px;
+    }
+}
+@media (max-width: 350px){
+    #card-inside {
+        font-size: 0.72em;
+        overflow: hidden;
     }
 }
